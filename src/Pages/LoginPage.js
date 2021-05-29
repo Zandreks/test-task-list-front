@@ -3,6 +3,7 @@ import {Form, Input, Button} from 'antd';
 import User from "../Controllers/User";
 import { useHistory } from "react-router-dom";
 
+
 const layout = {
     labelCol: {
         span: 6,
