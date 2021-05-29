@@ -28,7 +28,7 @@ const LoginPage = ()=>{
         const userController = new User()
         let res = await userController.signIn(formData)
         if (!!res) {
-            form.resetFields()
+            form.resetFields();
             localStorage.setItem("key",res.token)
             history.push("/")
         }
