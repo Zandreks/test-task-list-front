@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 
 const layout = {
     labelCol: {
-        span: 6,
+        span: 7,
     },
     wrapperCol: {
         span: 11,
