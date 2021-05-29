@@ -30,7 +30,7 @@ const LoginPage = ()=>{
         if (!!res) {
             form.resetFields();
             localStorage.setItem("key",res.token)
-            history.push("/")
+            history.push("/");
         }
     };
     const [form] = Form.useForm();
